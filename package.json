@@ -1,0 +1,33 @@
+{
+  "name": "frontity-storybook",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Frontity project",
+  "keywords": [
+    "frontity"
+  ],
+  "scripts": {
+    "dev": "frontity dev",
+    "build": "frontity build",
+    "serve": "frontity serve",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "prettier": {},
+  "dependencies": {
+    "frontity": "^1.6.0",
+    "@frontity/core": "^1.5.3",
+    "@frontity/wp-source": "^1.7.0",
+    "@frontity/tiny-router": "^1.2.0",
+    "@frontity/html2react": "^1.3.2",
+    "@frontity/mars-theme": "./packages/mars-theme"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@storybook/addon-actions": "^5.3.18",
+    "@storybook/addon-links": "^5.3.18",
+    "@storybook/addons": "^5.3.18",
+    "@storybook/react": "^5.3.18",
+    "babel-loader": "^8.1.0"
+  }
+}
