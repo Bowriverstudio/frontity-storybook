@@ -1,4 +1,8 @@
 module.exports = {
   stories: ["../packages/mars-theme/src/**/*.stories.js"],
-  addons: ["@storybook/addon-actions", "@storybook/addon-links"],
+  addons: [
+    "@storybook/preset-typescript",
+    "@storybook/addon-actions",
+    "@storybook/addon-links",
+  ],
 };
