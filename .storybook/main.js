@@ -5,4 +5,10 @@ module.exports = {
     "@storybook/addon-actions",
     "@storybook/addon-links",
   ],
+  webpackFinal: (config) => {
+    const tsRule = config.module.rules.find((rule) => /ts/.test(rule.test));
+    delete tsRule.include;
+    delete tsRule.exclude;
+    return config;
+  },
 };
