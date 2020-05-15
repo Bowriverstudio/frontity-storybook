@@ -1,0 +1,22 @@
+import { Meta, Story, Preview } from "@storybook/addon-docs/blocks";
+import TailwindSample from "./TailwindSample";
+import { text } from "@storybook/addon-knobs";
+
+<Meta
+  title="Tailwind/DesigningWithTailwind/01-getting-up-and-running/01-setting-up-tailwind-and-postcss"
+  component={SettingUpTailwind}
+/>
+
+# Setting up Tailwind and PostCSS
+
+Learn how to install Tailwind and get it compiling in a simple HTML project.
+
+## Reference
+
+https://tailwindcss.com/course/setting-up-tailwind-and-postcss/
+
+<Preview>
+  <Story name="Title">
+    <TailwindSample title={text("Title Attribute", "Title")}></TailwindSample>
+  </Story>
+</Preview>

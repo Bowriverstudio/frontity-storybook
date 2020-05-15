@@ -1,0 +1,120 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.43.0",
+  "hash": "46af39c1a3f6164eb193",
+  "publicPath": "/static/",
+  "outputPath": "/Users/mauricetadros/Documents/local/bowriverstudio/app/frontity-storybook/build/static",
+  "assetsByChunkName": {
+    "frontity-storybook": [
+      "frontity-storybook.module.js",
+      "frontity-storybook.21fa5d1a7ba353d5a233.hot-update.js"
+    ],
+    "list": "list.module.js"
+  },
+  "assets": [
+    {
+      "name": "21fa5d1a7ba353d5a233.hot-update.json",
+      "size": 60,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "frontity-storybook.21fa5d1a7ba353d5a233.hot-update.js",
+      "size": 5429,
+      "chunks": [
+        "frontity-storybook"
+      ],
+      "chunkNames": [
+        "frontity-storybook"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "frontity-storybook.module.js",
+      "size": 5003911,
+      "chunks": [
+        "frontity-storybook"
+      ],
+      "chunkNames": [
+        "frontity-storybook"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/navbar-logo.png",
+      "size": 6352,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "list.module.js",
+      "size": 48501,
+      "chunks": [
+        "list"
+      ],
+      "chunkNames": [
+        "list"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "frontity-storybook": {
+      "chunks": [
+        "frontity-storybook"
+      ],
+      "assets": [
+        "frontity-storybook.module.js",
+        "frontity-storybook.21fa5d1a7ba353d5a233.hot-update.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "frontity-storybook": {
+      "chunks": [
+        "frontity-storybook"
+      ],
+      "assets": [
+        "frontity-storybook.module.js",
+        "frontity-storybook.21fa5d1a7ba353d5a233.hot-update.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "list": {
+      "chunks": [
+        "list"
+      ],
+      "assets": [
+        "list.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": []
+}
