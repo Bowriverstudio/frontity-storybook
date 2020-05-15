@@ -51,11 +51,11 @@ return { ...config, module: { ...config.module, rules: custom.module.rules } };
 When Running `npm run storybook`
 There are five test stories. Please ensure they all work.
 
-packages/mars-theme/src/stories/0-Welcome.stories.js
-packages/mars-theme/src/stories/1-Button.stories.js
-packages/mars-theme/src/stories/2-Button-broken.stories.js
-packages/mars-theme/src/components/TailwindSample/TailwindSample.stories.mdx
-packages/mars-theme/src/components/TailwindSample/TailwindSample.stories.js
+- packages/mars-theme/src/stories/0-Welcome.stories.js
+- packages/mars-theme/src/stories/1-Button.stories.js
+- packages/mars-theme/src/stories/2-Button-broken.stories.js
+- packages/mars-theme/src/components/TailwindSample/TailwindSample.stories.mdx
+- packages/mars-theme/src/components/TailwindSample/TailwindSample.stories.js
 
 ## Add Structural Testing to storybook.
 
