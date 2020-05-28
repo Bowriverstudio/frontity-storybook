@@ -1,0 +1,65 @@
+{
+  "name": "frontity-storybook",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Frontity project",
+  "keywords": [
+    "frontity"
+  ],
+  "scripts": {
+    "dev": "frontity dev",
+    "build": "frontity build",
+    "serve": "frontity serve",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "test": "jest",
+    "test:generate-output": "jest --json --outputFile=.jest-test-results.json"
+  },
+  "jest": {
+    "transformIgnorePatterns": [
+      "/node_modules/(?!(@frontity/components|@frontity/type-declarations|@frontity/connect|@frontity/error)/).*"
+    ],
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js"
+    },
+    "transform": {
+      "^.+\\.[tj]sx?$": "babel-jest",
+      "^.+\\.mdx$": "@storybook/addon-docs/jest-transform-mdx"
+    }
+  },
+  "prettier": {},
+  "dependencies": {
+    "@frontity/core": "^1.5.3",
+    "@frontity/html2react": "^1.3.2",
+    "@frontity/mars-theme": "./packages/mars-theme",
+    "@frontity/tiny-router": "^1.2.0",
+    "@frontity/wp-source": "^1.7.0",
+    "@storybook/addon-knobs": "^5.3.18",
+    "@types/lodash": "^4.14.152",
+    "frontity": "^1.6.0",
+    "tailwind.macro": "^1.0.0-alpha.10",
+    "tailwindcss": "^1.4.6",
+    "twin.macro": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "@babel/preset-typescript": "^7.9.0",
+    "@storybook/addon-actions": "^5.3.18",
+    "@storybook/addon-docs": "^5.3.18",
+    "@storybook/addon-jest": "^5.3.18",
+    "@storybook/addon-links": "^5.3.18",
+    "@storybook/addon-storyshots": "^5.3.18",
+    "@storybook/addons": "^5.3.18",
+    "@storybook/preset-typescript": "^3.0.0",
+    "@storybook/react": "^5.3.18",
+    "babel-jest": "^26.0.1",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-macros": "^2.8.0",
+    "fork-ts-checker-webpack-plugin": "^4.1.3",
+    "jest": "^25.5.4",
+    "react-test-renderer": "^16.13.1",
+    "ts-loader": "^7.0.4"
+  }
+}
