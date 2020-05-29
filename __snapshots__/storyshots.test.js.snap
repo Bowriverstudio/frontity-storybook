@@ -90,6 +90,102 @@ exports[`Storyshots Button Text 1`] = `
 </button>
 `;
 
+exports[`Storyshots Components|Menu-Modal Menu Modal 1`] = `
+Array [
+  <div
+    className="css-1ql4i6d-MenuOverlay e4bp6p80"
+  />,
+  <nav
+    className="css-vd48c5-MenuContent e4bp6p81"
+  >
+    <a
+      aria-current="page"
+      className="css-12yvtno-MenuLink e4bp6p82"
+      href="/"
+      onClick={[Function]}
+    >
+      Home
+    </a>
+    <a
+      className="css-12yvtno-MenuLink e4bp6p82"
+      href="/category/nature/"
+      onClick={[Function]}
+    >
+      Nature
+    </a>
+    <a
+      className="css-12yvtno-MenuLink e4bp6p82"
+      href="/category/travel/"
+      onClick={[Function]}
+    >
+      Travel
+    </a>
+    <a
+      className="css-12yvtno-MenuLink e4bp6p82"
+      href="/tag/japan/"
+      onClick={[Function]}
+    >
+      Japan
+    </a>
+    <a
+      className="css-12yvtno-MenuLink e4bp6p82"
+      href="/about-us/"
+      onClick={[Function]}
+    >
+      About Us
+    </a>
+  </nav>,
+]
+`;
+
+exports[`Storyshots Components|Menu-Modal Menu Modal Nature 1`] = `
+Array [
+  <div
+    className="css-1ql4i6d-MenuOverlay e4bp6p80"
+  />,
+  <nav
+    className="css-vd48c5-MenuContent e4bp6p81"
+  >
+    <a
+      aria-current="page"
+      className="css-12yvtno-MenuLink e4bp6p82"
+      href="/"
+      onClick={[Function]}
+    >
+      Home
+    </a>
+    <a
+      className="css-12yvtno-MenuLink e4bp6p82"
+      href="/category/nature/"
+      onClick={[Function]}
+    >
+      Nature
+    </a>
+    <a
+      className="css-12yvtno-MenuLink e4bp6p82"
+      href="/category/travel/"
+      onClick={[Function]}
+    >
+      Travel
+    </a>
+    <a
+      className="css-12yvtno-MenuLink e4bp6p82"
+      href="/tag/japan/"
+      onClick={[Function]}
+    >
+      Japan
+    </a>
+    <a
+      className="css-12yvtno-MenuLink e4bp6p82"
+      href="/about-us/"
+      onClick={[Function]}
+    >
+      About Us
+    </a>
+  </nav>,
+]
+`;
+
 exports[`Storyshots Tailwind/DesigningWithTailwind/01-getting-up-and-running/01-setting-up-tailwind-and-postcss Title 1`] = `
 Array [
   <noscript>
